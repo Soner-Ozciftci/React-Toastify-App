@@ -1,3 +1,4 @@
+import "./App.css";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
@@ -10,7 +11,6 @@ function notify() {
     pauseOnHover: true,
     draggable: true,
     progress: undefined,
-    theme: "colored",
   });
 }
 
@@ -28,7 +28,6 @@ function App() {
         pauseOnFocusLoss
         draggable
         pauseOnHover
-        theme="colored"
       />
     </div>
   );
